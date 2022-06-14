@@ -1,7 +1,7 @@
 {
   "initBlock" : {
     "name" : "Today's Date",
-    "description" : "Retrieves current date from the database",
+    "description" : "Retrieves current date from the Oracle database",
     "type" : "GLOBAL",
     "connectionPool" : "connectionPool:Q\\.DB.Q Connection Pool",
     "selectStatements" : [ {
