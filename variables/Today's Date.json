@@ -1,0 +1,21 @@
+{
+  "initBlock" : {
+    "name" : "Today's Date",
+    "description" : "Retrieves current date from the database",
+    "type" : "GLOBAL",
+    "connectionPool" : "connectionPool:Q\\.DB.Q Connection Pool",
+    "selectStatements" : [ {
+      "databaseType" : "DEFAULT",
+      "query" : "SELECT TRUNC(SYSDATE) FROM DUAL"
+    } ],
+    "variables" : [ {
+      "name" : "svTodaysDate"
+    } ],
+    "runSchedule" : {
+      "interval" : 1,
+      "intervalUnit" : "HOURS",
+      "startingOn" : "2022-05-24 15:52:20.206"
+    },
+    "disable" : false
+  }
+}

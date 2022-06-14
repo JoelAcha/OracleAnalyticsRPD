@@ -1,0 +1,17 @@
+{
+  "subjectArea" : {
+    "name" : "Q.Subject Area",
+    "sourceBusinessModel" : "businessModel:Q.BusinessModel",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Q\\.Subject Area.COSTS"
+    }, {
+      "name" : "presentationTable:Q\\.Subject Area.CHANNELS"
+    }, {
+      "name" : "presentationTable:Q\\.Subject Area.PRODUCTS"
+    }, {
+      "name" : "presentationTable:Q\\.Subject Area.PROMOTIONS"
+    }, {
+      "name" : "presentationTable:Q\\.Subject Area.TIMES"
+    } ]
+  }
+}

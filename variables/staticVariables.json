@@ -1,0 +1,7 @@
+{
+  "initBlock" : {
+    "name" : "staticVariables",
+    "description" : "rpd repository static variables",
+    "type" : "STATIC"
+  }
+}
